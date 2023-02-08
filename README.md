@@ -9,3 +9,13 @@ sudo unzip -o /tmp/chromedriver_linux64.zip -d /usr/bin
 ```
 
 Source: https://stackoverflow.com/a/57306360
+
+---
+
+## Chromedriver Update (npm)
+
+Afterwards you may want to update your chromedriver via npm:
+
+```bash
+npm i -g chromedriver --detect_chromedriver_version --chromedriver-force-download
+```
